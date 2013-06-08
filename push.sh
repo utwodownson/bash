@@ -29,4 +29,13 @@ git push origin master
 echo ""
 echo ""
 
+echo "-------bash push"
+cd ~/bash
+git add .
+git status
+git commit -v -m "$time"
+git push origin master
+echo ""
+echo ""
+
 echo "-------finish push github"
