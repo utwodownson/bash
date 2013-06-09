@@ -1,24 +1,24 @@
 #!/bin/bash -
 
-echo "poj pull"
+echo "------poj pull"
 cd ~/poj 
 git pull
 echo ""
 echo ""
 
-echo "bash pull"
+echo "------bash pull"
 cd ~/bash
 git pull
 echo ""
 echo ""
 
-echo "blog pull"
+echo "------blog pull"
 cd ~/utwodownson.github.com
 git pull
 echo ""
 echo ""
 
-echo "leetcode pull"
+echo "------leetcode pull"
 cd ~/leetcode
 git pull
 echo ""
