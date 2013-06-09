@@ -38,4 +38,6 @@ git push origin master
 echo ""
 echo ""
 
+clear
+cd ~
 echo "-------finish push github"

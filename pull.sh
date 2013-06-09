@@ -24,6 +24,8 @@ git pull
 echo ""
 echo ""
 
+clear
+cd ~
 echo "finish pull github"
 
 
