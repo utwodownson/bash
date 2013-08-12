@@ -1,0 +1,18 @@
+#!/bin/bash
+#  faster tool to write a shell
+#+ <F2> :wq!<CR> # cygwin
+#+ #2 :wq!^M  # linux
+#$ workon test.sh
+
+if [ ! -f $1 ]; then
+    echo "#!/bin/bash" > $1
+fi
+
+while [ 1 ];
+do
+    vi $1
+    chmod 755 $1
+    ./$1
+    read dummy
+done
+
