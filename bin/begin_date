@@ -1,4 +1,6 @@
 #!/bin/bash
+#  record the time 
+
 NEW_LIFE=2011/04/26
 HER=1987/10/07
 ME=1987/10/20

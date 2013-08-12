@@ -1,0 +1,22 @@
+#!/bin/bash -
+
+echo "=========bash pull========"
+cd ~/bash
+git pull
+echo
+echo
+
+echo "=========leetcode pull========"
+cd ~/leetcode
+git pull
+echo
+echo
+
+sleep(3)
+
+clear
+cd ~
+echo "=========finish pull github=========="
+
+
+
