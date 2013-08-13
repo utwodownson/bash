@@ -31,12 +31,12 @@ do
         let count++
         sleep 1
         echo -n "==>" 
-    else
         echo
+        echo "=========finish push github=========="
+        sleep 1
+    else
+        clear
+        ls
         exit 0
     fi
 done
-
-clear
-cd ~
-echo "=========finish push github=========="
