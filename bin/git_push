@@ -1,6 +1,8 @@
 #!/bin/bash -
 
-time=$(date +%D)
+time_day=$(date +%Y\/%m\/%d)
+time_hour=$(date +%H%M%S)
+time=$time_day"\ \ "$time_hour
 
 echo "=========bash push========"
 cd ~/bash
