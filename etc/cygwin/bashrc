@@ -131,6 +131,7 @@ alias indent='indent -npro -kr -ut -ss -ncs -sai -saw -bli 0'
 alias make='/bin/make.exe'
 
 # alias rm='cp $@ ~/backup/; rm $@'
+alias rm='cp $@ /backup; rm'
 
 # cygwin path 
 export PATH="/usr/bin:/bin"
