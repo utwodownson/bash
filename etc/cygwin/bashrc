@@ -123,8 +123,8 @@ alias vim='vi'
 
 time=$(date +%D-%T)
 # alias gitpush='git add .;git status;git commit -m "$time";git push origin master'
-alias push='~/bash/bin/push'
-alias pull='~/bash/bin/pull'
+alias push='~/bash/bin/git_push'
+alias pull='~/bash/bin/git_pull'
 alias workon='~/bash/bin/workon'
 alias clip='/cygdrive/c/Windows/system32/clip.exe'
 alias indent='indent -npro -kr -ut -ss -ncs -sai -saw -bli 0'
