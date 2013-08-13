@@ -21,6 +21,7 @@ do
         sleep 1
         echo -n "==>" 
     elif [ $count -lt 4]; then
+        let count++
         echo
         echo "=========finish pull github=========="
         sleep 1

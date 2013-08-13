@@ -32,6 +32,7 @@ do
         sleep 1
         echo -n "==>" 
     elif [ $count -lt 4 ]; then
+        let count++
         echo
         echo "=========finish push github=========="
         sleep 1
