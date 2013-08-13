@@ -29,13 +29,13 @@ while true
 do
     if [ $count -lt 3 ]; then
         let count++
-        sleep 1
         echo -n "==>" 
+        sleep 1
     elif [ $count -lt 4 ]; then
         let count++
         echo
         echo "=========finish push github=========="
-        sleep 1
+        sleep 2 
     else
         clear
         cd 
