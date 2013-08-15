@@ -13,9 +13,17 @@ git push origin master
 echo
 echo
 
-
 echo "=========leetcode push========"
 cd ~/leetcode
+git add .
+git status
+git commit -v -m "$time"
+git push origin master
+echo
+echo
+
+echo "=========interview push========"
+cd ~/interview
 git add .
 git status
 git commit -v -m "$time"

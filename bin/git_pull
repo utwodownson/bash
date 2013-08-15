@@ -12,6 +12,12 @@ git pull
 echo
 echo
 
+echo "=========interview pull========"
+cd ~/interview
+git pull
+echo
+echo
+
 count=0
 
 while true
