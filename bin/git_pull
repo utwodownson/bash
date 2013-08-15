@@ -20,7 +20,7 @@ do
         let count++
         echo -n "==>" 
         sleep 1
-    elif [ $count -lt 4]; then
+    elif [ $count -lt 4 ]; then
         let count++
         echo
         echo "=========finish pull github=========="
