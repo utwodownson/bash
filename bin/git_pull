@@ -27,7 +27,7 @@ do
         sleep 2
     else
         clear
-        ls
+        cd
         exit 0
     fi
 done
