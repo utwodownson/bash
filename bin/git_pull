@@ -23,7 +23,7 @@ do
     elif [ $count -lt 4 ]; then
         let count++
         echo
-        echo "=========finish pull github=========="
+        echo -n "=========finish pull github=========="
         sleep 2
     else
         clear
