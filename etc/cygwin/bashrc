@@ -273,4 +273,3 @@ fi
 
 clear
 ~/bash/bin/begin_date
-ls -1
