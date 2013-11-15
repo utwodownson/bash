@@ -12,11 +12,18 @@ git pull
 echo
 echo
 
-echo "=========interview pull========"
-cd ~/interview
+echo "============alg pull=========="
+cd ~/alg
 git pull
 echo
 echo
+
+# 
+# echo "=========interview pull========"
+# cd ~/interview
+# git pull
+# echo
+# echo
 
 count=0
 

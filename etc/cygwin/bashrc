@@ -274,17 +274,6 @@ fi
 
 #pull
 clear
-echo alg github pull
-echo 
-cd ~/alg
-git status
-git pull
-echo 
-echo leetcode github pull
-echo
-cd ~/leetcode
-git status
-echo 
-git pull
+~/bash/bin/git_pull
 cd ~
 ~/bash/bin/begin_date

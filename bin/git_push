@@ -5,14 +5,14 @@ time_hour=$(date +%H\:%M\:%S)
 time=$time_day"  "$time_hour
 log=$time+"in aisino"
 
-# echo "=========bash push========"
-# cd ~/bash
-# git add .
-# git status
-# git commit -v -m "$time"
-# git push origin master
-# echo
-# echo
+echo "=========bash push========"
+cd ~/bash
+git add .
+git status
+git commit -v -m "$log"
+git push origin master
+echo
+echo
 
 echo "=========leetcode push========"
 cd ~/leetcode
