@@ -123,17 +123,18 @@ alias vim='vi'
 
 time=$(date +%D-%T)
 # alias gitpush='git add .;git status;git commit -m "$time";git push origin master'
-alias push='~/bash/bin/git_push'
-alias pull='~/bash/bin/git_pull'
+#alias push='~/bash/bin/git_push'
+#alias pull='~/bash/bin/git_pull'
 alias workon='~/bash/bin/workon'
 alias clip='/cygdrive/c/Windows/system32/clip.exe'
 alias indent='indent -npro -kr -ut -ss -ncs -sai -saw -bli 0'
 alias make='/bin/make.exe'
+#alias ls='ls -1'
 
 # alias rm='cp $@ ~/backup/; rm $@'
 
 # cygwin path 
-export PATH="/usr/bin:/bin"
+#export PATH="/usr/bin:/bin"
 
 # end add
 
@@ -224,7 +225,7 @@ export PATH="/usr/bin:/bin"
 
 SSH_ENV="$HOME/.ssh/environment"
 
-start the ssh-agent
+#start the ssh-agent
 function start_agent {
     echo "Initializing new SSH agent..."
 
@@ -271,6 +272,19 @@ else
     fi
 fi
 
-# pull
+#pull
 clear
+echo alg github pull
+echo 
+cd ~/alg
+git status
+git pull
+echo 
+echo leetcode github pull
+echo
+cd ~/leetcode
+git status
+echo 
+git pull
+cd ~
 ~/bash/bin/begin_date

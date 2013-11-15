@@ -1,2 +1,0 @@
-Charles' Bash document
-====
