@@ -6,7 +6,7 @@ HER=1987/10/07
 ME=1987/10/20
 TODAY=`date +%j`
 
-echo "The number of days since the year's beginning is $((365 - TODAY))."
+echo "The number of days since the year's beginning is $TODAY."
 
 # 将基础时间转换成时间戳
 time1=$(date +%s -d "$NEW_LIFE")
